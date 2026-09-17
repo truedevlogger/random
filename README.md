@@ -4,14 +4,15 @@ Players compete to survive, react quickly to game events, and achieve the highes
 
 ->> Features
 
-Real-time multiplayer gameplay
-Server-authoritative scoring
-Player progression and hangar system
-Leaderboards and authentication
-Theme support
+Real-time multiplayer gameplay,
+WebSocket-based state synchronization,
+Server-authoritative game logic,
+Authentication & persistent sessions,
+PostgreSQL-backed leaderboard,
+Spectator mode,
+Final rankings,
+Automated multiplayer/server-authority tests
 
-## Project Structure
+->> Tech Stack
 
-- `client/` — React/TypeScript frontend
-- `server/` — Node.js backend
-- `shared/` — Shared types and schemas
+React · TypeScript · Node.js · Express · WebSockets · PostgreSQL · Drizzle ORM · Tailwind CSS
